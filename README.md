@@ -10,7 +10,7 @@ A quick-capture tool for saving pages with context, not just links. Unlike Googl
 - Persist across browser sessions via chrome.storage.local
 
 ## Tech
-Vanilla JavaScript, Chrome Extension Manifext V3, chrome.storage API
+Vanilla JavaScript, Chrome Extension Manifest V3, chrome.storage API
 
 ## Install (development mode)
 1. Clone this repo
