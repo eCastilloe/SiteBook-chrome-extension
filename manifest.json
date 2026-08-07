@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Saved Pages",
+    "version": "2.0",
+    "description": "Save the current page using a context note to identify it and revisit it later using a keyword filter",
+    "permissions": ["storage", "tabs"],
+    "action":{
+        "default_popup": "popup.html",
+        "default_icon": "img/save-icon.png"
+    }
+}

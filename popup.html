@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body { text-align: center; background-color: rgb(217, 218, 217); width: 320px; font-family: sans-serif; padding: 10px 10px; }
+        #deleteBtn{ background-color: lightcoral; border: solid rgb(172, 54, 54) 0.5px; border-radius: 10px; width: 100px; padding: 8px; margin-bottom: 10px; }
+        #saveBtn{ background-color: lightblue; border: solid #105 0.5px; border-radius: 10px; width: 80%; padding: 8px; justify-content: center; }    
+        li { display: flex; justify-content: space-between; margin-bottom: 6px}
+        input { margin: 7px 0px; border-radius: 5px; background-color:  #dfffff;}
+        h1, a{ text-decoration: none; color: #105; font-size: 13px;}
+        h1 {font-size: 16px; font-weight: bold;}
+    </style>
+</head>
+<body>
+    <h1>SiteBook</h1>
+    <input type="text" id="noteInput" placeholder="Why are you saving this?"/>
+    <button id="saveBtn">Save this page</button>
+
+    <input type="text" id="searchInput" placeholder="Search saved pages..."/>
+    <ul id="pageList"></ul>
+
+    <script src="popup.js"></script>
+</body>
+</html>
