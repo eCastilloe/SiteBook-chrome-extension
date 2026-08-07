@@ -18,6 +18,8 @@ Vanilla JavaScript, Chrome Extension Manifext V3, chrome.storage API
 3. Enable Developer mode
 4. Click "Load unpacked" and select this folder
 
+## Demonstration
+
 ![Demonstration for adding new sites with notes](img/demonstration1.png)
 
 ![Filter using keywords](img/demonstration2.png)
